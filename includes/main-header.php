@@ -18,7 +18,7 @@
 				<div class="col-xs-12 col-sm-12 col-md-3 logo-holder">
 					<!-- ============================================================= LOGO ============================================================= -->
 <div class="logo">
-	<a href="index.php">
+	<a  title="Title Of logopart" href="index.php">
 		
 		<h2><div class="item">
 					<a href="index.php" class="image">
@@ -35,7 +35,7 @@
 
             <input class="search-field" placeholder="Search product..." name="product" required="required" />
 
-            <button class="search-button" type="submit" name="search"></button>    
+            <button title= "searchpage" class="search-button" type="submit" name="search"> </button>    
 
         </div>
     </form>

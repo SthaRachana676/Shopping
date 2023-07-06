@@ -199,11 +199,11 @@ echo htmlentities($_SESSION['errmsg']="");
 <!-- Sign-in -->
 
 <!-- create a new account -->
-<div class="col-md-6 col-sm-6 create-new-account">
+    <div class="col-md-6 col-sm-6 create-new-account">
 	<h4 class="checkout-subtitle">create a new account</h4>
 	<p class="text title-tag-line">Create your own Shopping account.</p>
 	<form class="register-form outer-top-xs" role="form" method="post" name="register" onSubmit="return valid();">
-<div class="form-group">
+       <div class="form-group">
 	    	<label class="info-title" for="fullname">Full Name <span>*</span></label>
 	    	<input type="text" class="form-control unicase-form-control text-input" id="fullname" name="fullname" required="required">
 	  	</div>
@@ -215,20 +215,20 @@ echo htmlentities($_SESSION['errmsg']="");
 	    	       <span id="user-availability-status1" style="font-size:12px;"></span>
 	  	</div>
 
-<div class="form-group">
+          <div class="form-group">
 	    	<label class="info-title" for="contactno">Contact No. <span>*</span></label>
 	    	<input type="text" class="form-control unicase-form-control text-input" id="contactno" name="contactno" maxlength="10" required >
 	  	</div>
 
-<div class="form-group">
-	    	<label class="info-title" for="password">Password. <span>*</span></label>
-	    	<input type="password" class="form-control unicase-form-control text-input" id="password" name="password"  required >
-	  	</div>
+		<div class="form-group">
+					<label class="info-title" for="password">Password. <span>*</span></label>
+					<input type="password" class="form-control unicase-form-control text-input" id="password" name="password"  required >
+				</div>
 
-<div class="form-group">
-	    	<label class="info-title" for="confirmpassword">Confirm Password. <span>*</span></label>
-	    	<input type="password" class="form-control unicase-form-control text-input" id="confirmpassword" name="confirmpassword" required >
-	  	</div>
+		<div class="form-group">
+					<label class="info-title" for="confirmpassword">Confirm Password. <span>*</span></label>
+					<input type="password" class="form-control unicase-form-control text-input" id="confirmpassword" name="confirmpassword" required >
+				</div>
 
 
 	  	<button type="submit" name="submit" class="btn-upper btn btn-primary checkout-page-button" id="submit">Sign Up</button>
@@ -242,7 +242,7 @@ echo htmlentities($_SESSION['errmsg']="");
 		Track your orders easily.
 		</label>
 		<label class="checkbox">
- Keep a record of all your purchases.
+         Keep a record of all your purchases.
 		</label>
 	</div>
 </div>	

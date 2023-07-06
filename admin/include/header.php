@@ -5,7 +5,7 @@
         <i class="icon-reorder shaded">
         </i>
       </a>
-      <a class="brand" href="index.html">
+      <a class="brand" href="#">
         Shopping Portal | Admin
       </a>
       <div class="nav-collapse collapse navbar-inverse-collapse">
@@ -17,7 +17,9 @@
           </li>
           <li class="nav-user dropdown">
             <a href="#" class="dropdown-toggle" data-toggle="dropdown">
-              <img src="images/user.png" class="nav-avatar" />
+            <img class="nav-avatar"
+             src="images/cg.png"
+            alt="">
               <b class="caret">
               </b>
             </a>

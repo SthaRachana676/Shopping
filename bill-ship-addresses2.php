@@ -136,41 +136,38 @@ while($row=mysqli_fetch_array($query))
 {
 ?>
 
-					<form class="register-form" role="form" method="post">
-<div class="form-group">
-					    <label class="info-title" for="Billing Address">Billing Address<span>*</span></label>
-					    <textarea class="form-control unicase-form-control text-input" " name="billingaddress" required="required"><?php echo $row['billingAddress'];?></textarea>
-					  </div>
+	<form class="register-form" role="form" method="post">
+		<div class="form-group">
+			<label class="info-title" for="Billing Address">Billing Address<span>*</span></label>
+				<textarea class="form-control unicase-form-control text-input" " name="billingaddress" required="required"><?php echo $row['billingAddress'];?></textarea>
+		</div>
 
+		<div class="form-group">
+			<label class="info-title" for="Billing State ">Billing State  <span>*</span></label>
+			<input type="text" class="form-control unicase-form-control text-input" id="bilingstate" name="bilingstate" value="<?php echo $row['billingState'];?>" required>
+		</div>
+		<div class="form-group">
+			<label class="info-title" for="Billing City">Billing City <span>*</span></label>
+			<input type="text" class="form-control unicase-form-control text-input" id="billingcity" name="billingcity" required="required" value="<?php echo $row['billingCity'];?>" >
+		</div>
+		<div class="form-group">
+			<label class="info-title" for="Billing Pincode">Billing Pincode <span>*</span></label>
+			<input type="text" class="form-control unicase-form-control text-input" id="billingpincode" name="billingpincode" required="required" value="<?php echo $row['billingPincode'];?>" >
+		</div>
 
+		<button type="submit" name="update" class="btn-upper btn btn-primary checkout-page-button">Update</button>
+	</form>
 
-						<div class="form-group">
-					    <label class="info-title" for="Billing State ">Billing State  <span>*</span></label>
-			 <input type="text" class="form-control unicase-form-control text-input" id="bilingstate" name="bilingstate" value="<?php echo $row['billingState'];?>" required>
-					  </div>
-					  <div class="form-group">
-					    <label class="info-title" for="Billing City">Billing City <span>*</span></label>
-					    <input type="text" class="form-control unicase-form-control text-input" id="billingcity" name="billingcity" required="required" value="<?php echo $row['billingCity'];?>" >
-					  </div>
- <div class="form-group">
-					    <label class="info-title" for="Billing Pincode">Billing Pincode <span>*</span></label>
-					    <input type="text" class="form-control unicase-form-control text-input" id="billingpincode" name="billingpincode" required="required" value="<?php echo $row['billingPincode'];?>" >
-					  </div>
-
-
-					  <button type="submit" name="update" class="btn-upper btn btn-primary checkout-page-button">Update</button>
-					</form>
-					<?php } ?>
-				</div>	
+	<?php } ?>
+			</div>	
 				<!-- already-registered-login -->		
 
 			</div>			
 		</div>
 		<!-- panel-body  -->
-
 	</div><!-- row -->
-</div>
-<!-- checkout-step-01  -->
+    </div>
+    <!-- checkout-step-01  -->
 					    <!-- checkout-step-02  -->
 					  	<div class="panel panel-default checkout-step-02">
 						    <div class="panel-heading">

@@ -51,18 +51,15 @@ exit();
 					<i class="icon-reorder shaded"></i>
 				</a>
 
-			  	<a class="brand" href="http://localhost/shopping/admin/">
+			  	<a class="brand" href="http://localhost/shopping/admin/index.php">
 			  		Shopping Portal | Admin
 			  	</a>
 
 				<div class="nav-collapse collapse navbar-inverse-collapse">
-				
 					<ul class="nav pull-right">
-
 						<li><a href="http://localhost/shopping/">
-						<button>Back to Portal</button>
+						<button  type="button" class="btn btn-info">Back to Portal</button>
 						</a></li>
-				
 					</ul>
 				</div><!-- /.nav-collapse -->
 			</div>
@@ -106,13 +103,11 @@ exit();
 		</div>
 	</div><!--/.wrapper-->
 
-	<div class="footer">
+	<!-- <div class="footer">
 		<div class="container">
-			 
-
-			<b class="copyright">&copy; 2021 Shopping Portal </b> All rights reserved.
+			<b class="copyright">&copy; 2023 Shopping Portal </b> All rights reserved.
 		</div>
-	</div>
+	</div> -->
 	<script src="scripts/jquery-1.9.1.min.js" type="text/javascript"></script>
 	<script src="scripts/jquery-ui-1.10.1.custom.min.js" type="text/javascript"></script>
 	<script src="bootstrap/js/bootstrap.min.js" type="text/javascript"></script>

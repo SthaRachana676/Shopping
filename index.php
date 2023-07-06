@@ -79,19 +79,43 @@ $message="Product ID is invalid";
               <div id="hero" class="homepage-slider3">
                 <div id="owl-main" class="owl-carousel owl-inner-nav owl-ui-sm">
                   <div class="full-width-slider">	
-                    <div class="item" style="background-image: url(assets/images/sliders/t-shirts_ws_1519647656.webp);">
+                    <div class="item" style="background-image: url(assets/images/sliders/11.jpg);">
                       <!-- /.container-fluid -->
                     </div>
                     <!-- /.item -->
                   </div>
                   <!-- /.full-width-slider -->
                   <div class="full-width-slider">
-                    <div class="item full-width-slider" style="background-image: url(assets/images/sliders/1.webp);">
+                    <div class="item full-width-slider" style="background-image: url(assets/images/sliders/12.jpg);">
                     </div>
                     <!-- /.item -->
                   </div>
                   <div class="full-width-slider">
-                    <div class="item full-width-slider" style="background-image: url(assets/images/sliders/viru-keskus-fashion-always-wins-a7d9ba53cfbe3a5e51f7c90b07.jpg);">
+                    <div class="item full-width-slider" style="background-image: url(assets/images/sliders/13.jpg);">
+                    </div>
+                  </div>
+                  <div class="full-width-slider">
+                    <div class="item full-width-slider" style="background-image: url(assets/images/sliders/14.jpg);">
+                    </div>
+                  </div>
+                  <div class="full-width-slider">
+                    <div class="item full-width-slider" style="background-image: url(assets/images/sliders/15.webp);">
+                    </div>
+                  </div>
+                  <div class="full-width-slider">
+                    <div class="item full-width-slider" style="background-image: url(assets/images/sliders/16.webp);">
+                    </div>
+                  </div>
+                  <div class="full-width-slider">
+                    <div class="item full-width-slider" style="background-image: url(assets/images/sliders/17.webp);">
+                    </div>
+                  </div>
+                  <div class="full-width-slider">
+                    <div class="item full-width-slider" style="background-image: url(assets/images/sliders/18.png);">
+                    </div>
+                  </div>
+                  <div class="full-width-slider">
+                    <div class="item full-width-slider" style="background-image: url(assets/images/sliders/19.png);">
                     </div>
                   </div>
                   
@@ -104,7 +128,7 @@ $message="Product ID is invalid";
               <div class="info-boxes wow fadeInUp">
                 <div class="info-boxes-inner">
                   <div class="row">
-                    <div class="col-md-6 col-sm-4 col-lg-4">
+                    <!-- <div class="col-md-6 col-sm-4 col-lg-4">
                       <div class="info-box">
                         <div class="row">
                           <div class="col-xs-2">
@@ -119,9 +143,9 @@ $message="Product ID is invalid";
                         <h6 class="text">30 Day Money Back Guarantee.
                         </h6>
                       </div>
-                    </div>
+                    </div> -->
                     <!-- .col -->
-                    <div class="hidden-md col-sm-4 col-lg-4">
+                    <!-- <div class="hidden-md col-sm-4 col-lg-4">
                       <div class="info-box">
                         <div class="row">
                           <div class="col-xs-2">
@@ -136,9 +160,9 @@ $message="Product ID is invalid";
                         <h6 class="text">free ship-on oder over Rs. 600.00
                         </h6>	
                       </div>
-                    </div>
+                    </div> -->
                     <!-- .col -->
-                    <div class="col-md-6 col-sm-4 col-lg-4">
+                    <!-- <div class="col-md-6 col-sm-4 col-lg-4">
                       <div class="info-box">
                         <div class="row">
                           <div class="col-xs-2">
@@ -153,7 +177,7 @@ $message="Product ID is invalid";
                         <h6 class="text">All items-sale up to 20% off 
                         </h6>	
                       </div>
-                    </div>
+                    </div> -->
                     <!-- .col -->
                   </div>
                   <!-- /.row -->
@@ -177,11 +201,11 @@ $message="Product ID is invalid";
                   </a>
                 </li>
                 <li>
-                  <a href="#books" data-toggle="tab">Men
+                  <a href="#Samsung" data-toggle="tab">Samsung
                   </a>
                 </li>
                 <li>
-                  <a href="#furniture" data-toggle="tab">Women
+                  <a href="#Redmi" data-toggle="tab">Redmi
                   </a>
                 </li>
               </ul>

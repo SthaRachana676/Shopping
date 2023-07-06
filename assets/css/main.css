@@ -551,7 +551,7 @@ a {
   color: #12cca7;
 }
 .header-style-1 .header-nav {
-  background:#ef0c0c;
+  background:#4b4141;
 }
 .cnt-home .header-style-1 .header-nav .navbar .navbar-nav > li.active {
   background: #0b816a;
@@ -956,7 +956,7 @@ a {
 /*  DARK GREEN Color
 /*===================================================================================*/
 .top-bar {
-  background: #ef0c0c;
+  background: #4b4141;
   padding: 10px 0 9px;
   font-size: 12px;
 }
@@ -1453,7 +1453,7 @@ a {
   font-family: 'FjallaOneRegular';
   padding: 15px 17px;
   text-transform: uppercase;
-  background:#ef0c0c;
+  background:#4b4141;
 }
 .sidebar .side-menu .head .icon {
   margin-right: 20px;

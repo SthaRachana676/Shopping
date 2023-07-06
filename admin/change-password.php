@@ -115,12 +115,7 @@ return true;
 <div class="controls">
 <input type="password" placeholder="Enter your new Password again"  name="confirmpassword" class="span8 tip" required>
 </div>
-</div>
-
-
-
-
-										
+</div>			
 
 										<div class="control-group">
 											<div class="controls">
