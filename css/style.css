@@ -252,7 +252,7 @@ li.purple .box-dropdown:after{
 	line-height:20px;
 	top:200%;
 	padding-top:13px !important;
-	z-inex:9999;
+	z-index:9999;
 	overflow:hidden;
 	width:0;
 	height:0;
@@ -359,7 +359,7 @@ li.purple .box-dropdown:after{
 .iconic-input .icons{
 	position:absolute;
 	color:#7a8188!important;
-	z-inex:9999;
+	z-index:9999;
 	left:auto!important;
 	top:10px!important;
 	right:10px!important;
@@ -1912,7 +1912,7 @@ input[type="checkbox"]:checked + label.color-checkbox{
 	-o-opacity:0;
 	transition:opacity 0.3s;
 	-webkit-transition:opacity 0.3s;
-	-moz-transition.:opacity 0.3s;
+	-moz-transition:opacity 0.3s;
 	-ms-transition:opacity 0.3s;
 	-o-transition:opacity 0.3s;
 }
@@ -1932,7 +1932,7 @@ input[type="checkbox"]:checked + label.color-checkbox{
 	-o-opacity:0;
 	transition:opacity 0.3s;
 	-webkit-transition:opacity 0.3s;
-	-moz-transition.:opacity 0.3s;
+	-moz-transition:opacity 0.3s;
 	-ms-transition:opacity 0.3s;
 	-o-transition:opacity 0.3s;
 }

@@ -28,15 +28,42 @@
 	</a>
 </div>		
 </div>
-<div class="col-xs-12 col-sm-12 col-md-6 top-search-holder">
+<style>
+	form.example input[type=text] {
+  padding: 10px;
+  font-size: 17px;
+  border: 1px solid grey;
+  float: left;
+  width: 80%;
+  background: #f1f1f1;
+}
+form.example button {
+  float: left;
+  width: 20%;
+  padding: 10px;
+  background: #2196F3;
+  color: white;
+  font-size: 17px;
+  border: 1px solid grey;
+  border-left: none; /* Prevent double borders */
+  cursor: pointer;
+}
+form.example button:hover {
+  background: #0b7dda;
+}
+form.example::after {
+  content: "";
+  clear: both;
+  display: table;
+}
+</style>
+<div class="col-xs-12 col-sm-12 col-md-6 ">
 <div class="search-area">
-    <form name="search" method="post" action="search-result.php">
+    <form  class="example" name="search" method="post" action="search-result.php">
         <div class="control-group">
 
-            <input class="search-field" placeholder="Search product..." name="product" required="required" />
-
-            <button title= "searchpage" class="search-button" type="submit" name="search"> </button>    
-
+            <input name="product" type="text" class="search-field" placeholder="Search product..."  required="required" />
+            <button title= "searchpage" class="search-button" type="submit" name="search"> Search</button>    
         </div>
     </form>
 </div><!-- /.search-area -->

@@ -128,7 +128,7 @@ $message="Product ID is invalid";
               <div class="info-boxes wow fadeInUp">
                 <div class="info-boxes-inner">
                   <div class="row">
-                    <!-- <div class="col-md-6 col-sm-4 col-lg-4">
+                    <div class="col-md-6 col-sm-4 col-lg-4">
                       <div class="info-box">
                         <div class="row">
                           <div class="col-xs-2">
@@ -143,9 +143,9 @@ $message="Product ID is invalid";
                         <h6 class="text">30 Day Money Back Guarantee.
                         </h6>
                       </div>
-                    </div> -->
+                    </div>
                     <!-- .col -->
-                    <!-- <div class="hidden-md col-sm-4 col-lg-4">
+                    <div class="hidden-md col-sm-4 col-lg-4">
                       <div class="info-box">
                         <div class="row">
                           <div class="col-xs-2">
@@ -160,9 +160,9 @@ $message="Product ID is invalid";
                         <h6 class="text">free ship-on oder over Rs. 600.00
                         </h6>	
                       </div>
-                    </div> -->
+                    </div>
                     <!-- .col -->
-                    <!-- <div class="col-md-6 col-sm-4 col-lg-4">
+                    <div class="col-md-6 col-sm-4 col-lg-4">
                       <div class="info-box">
                         <div class="row">
                           <div class="col-xs-2">
@@ -177,18 +177,166 @@ $message="Product ID is invalid";
                         <h6 class="text">All items-sale up to 20% off 
                         </h6>	
                       </div>
-                    </div> -->
+                    </div>
                     <!-- .col -->
                   </div>
                   <!-- /.row -->
                 </div>
                 <!-- /.info-boxes-inner -->
               </div>
+
+
+
               <!-- /.info-boxes -->
               <!-- ============================================== INFO BOXES : END ============================================== -->		
             </div>
+
+
             <!-- /.homebanner-holder -->
           </div>
+ <!--shop bar show ====================================================================================== -->
+<style>
+
+.mainn-raised {
+margin: px 0px 0px;
+border-radius: 6px;
+box-shadow: 0 16px 24px 2px rgba(0, 0, 0, 0.14), 0 6px 30px 5px rgba(0, 0, 0, 0.12), 0 8px 10px -5px rgba(0, 0, 0, 0.2);
+}
+  .mainn {
+background: #C9D6FF;  /* fallback for old browsers */
+background: -webkit-linear-gradient(to bottom, #E2E2E2, #C9D6FF);  /* Chrome 10-25, Safari 5.1-6 */
+background: linear-gradient(to bottom, #E2E2E2, #C9D6FF); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+position: relative;
+z-index: 3;
+
+}
+.shop {
+  position: relative;
+  overflow: hidden;
+  margin: 20px 0px;
+}
+.shop:before {
+  content: "";
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0px;
+  width: 60%;
+  background: #12c2e9;  /* fallback for old browsers */
+ background: -webkit-linear-gradient(to bottom, #f64f59, #c471ed, #12c2e9);  /* Chrome 10-25, Safari 5.1-6 */
+  background: linear-gradient(to bottom, #f64f59, #c471ed, #12c2e9); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+  opacity: 0.9;
+  -webkit-transform: skewX(-45deg);
+  -ms-transform: skewX(-45deg);
+  transform: skewX(-45deg);
+}
+.shop:after {
+  content: "";
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 1px;
+  width: 100%;
+ background: #12c2e9;  /* fallback for old browsers */
+background: -webkit-linear-gradient(to bottom, #f64f59, #c471ed, #12c2e9);  /* Chrome 10-25, Safari 5.1-6 */
+background: linear-gradient(to bottom, #f64f59, #c471ed, #12c2e9); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+  opacity: 0.9;
+  -webkit-transform: skewX(-45deg) translateX(-100%);
+  -ms-transform: skewX(-45deg) translateX(-100%);
+  transform: skewX(-45deg) translateX(-100%);
+}
+.shop .shop-img {
+  position: relative;
+  background-color: #E4E7ED;
+  z-index: -1;
+}
+.shop .shop-img>img {
+  width: 100%;
+  -webkit-transition: 0.2s all;
+  transition: 0.2s all;
+}
+.shop:hover .shop-img>img {
+  -webkit-transform: scale(1.1);
+  -ms-transform: scale(1.1);
+  transform: scale(1.1);
+}
+.shop .shop-body {
+  position: absolute;
+  top: 0;
+  width: 75%;
+  padding: 30px;
+  z-index: 10;
+}
+.shop .shop-body h3 {
+  color: #FFF;
+}
+
+.shop .shop-body .cta-btn {
+  color: #FFF;
+  text-transform: uppercase;
+}
+</style>
+
+<br>
+<br>
+<br>
+
+  <div class="section mainn mainn-raised">
+    <!-- container -->
+    <div class="container">
+    
+      <!-- row -->
+      <div class="row">
+        <!-- shop -->
+        <div class="col-md-4 col-xs-6">
+          <a href="product-details.php?pid=64"><div class="shop">
+            <div class="shop-img">
+              <img src="./img/S.jpg" alt="">
+            </div>
+            <div class="shop-body">
+              <h3>Samsung<br>Collection</h3>
+              <a href="product-details.php?pid=64" class="cta-btn">Shop now <i class="fa fa-arrow-circle-right"></i></a>
+            </div>
+          </div></a>
+        </div>
+        <!-- /shop -->
+
+        <!-- shop -->
+        <div class="col-md-4 col-xs-6">
+          <a href="product-details.php?pid=67"><div class="shop">
+            <div class="shop-img">
+              <img src="./img/p.jpg" alt="">
+            </div>
+            <div class="shop-body">
+              <h3>Poco<br>Collection</h3>
+              <a href="product-details.php?pid=67" class="cta-btn">Shop now <i class="fa fa-arrow-circle-right"></i></a>
+            </div>
+          </div></a>
+        </div>
+        <!-- /shop -->
+
+        <!-- shop -->
+        <div class="col-md-4 col-xs-6">
+          <a href="product-details.php?pid=65"><div class="shop">
+            <div class="shop-img">
+              <img src="img/R.jpeg" alt="">
+            </div>
+            <div class="shop-body">
+              <h3>RealMe<br>Collection</h3>
+              <a href="product-details.php?pid=65" class="cta-btn">Shop now <i class="fa fa-arrow-circle-right"></i></a>
+            </div>
+                          </div></a>
+        </div>
+        <!-- /shop -->
+      </div>
+      <!-- /row -->
+    </div>
+    <!-- /container -->
+  </div>
+  <br>
+  <br>
+  <br>
+ <!-- shop bar end ======================================================================================== -->
           <!-- /.row -->
           <!-- ============================================== SCROLL TABS ============================================== -->
           <div id="product-tabs-slider" class="scroll-tabs inner-bottom-vs  wow fadeInUp">

@@ -1114,12 +1114,12 @@ a {
   font-family: 'FjallaOneRegular';
   line-height: 30px;
 }
-.main-header .top-search-holder .search-area .search-button {
+.main-header .top-search-holder .search-area .search-button :hover{
   -webkit-border-radius: 0px;
   -moz-border-radius: 0px;
   border-radius: 0px;
   display: inline-block;
-  float: right;
+ 
   margin: 0px;
   padding: 12px 19px 13px;
   text-align: center;
@@ -2250,7 +2250,7 @@ a {
   border: 2px solid #e4e4e4;
 }
 .homepage-slider3 {
-  height: 368px;
+  height: 400px;
 }
 .homepage-slider3 #owl-main .item {
   height: 368px;
@@ -4749,8 +4749,9 @@ a {
   color: #666666;
 }
 .shopping-cart .shopping-cart-table table tbody tr .romove-item a:hover,
-.shopping-cart .shopping-cart-table table tbody tr .romove-item a:focus {
-  color: #ff000 !important;
+.shopping-cart .shopping-cart-table table tbody tr .romove-item a:focus
+{
+  color: #ff000f !important;
 }
 .shopping-cart .shopping-cart-table table tbody tr .cart-image .entry-thumbnail {
   display: block;
